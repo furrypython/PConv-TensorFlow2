@@ -2,10 +2,7 @@
 This is the Google Colaboratory implementation of [Liu et al., 2018. Image Inpainting for Irregular Holes Using Partial Convolutions](https://arxiv.org/abs/1804.07723).
 
 ![Example_01](result_images/result_01.png?raw=true "Example_01")  
-![Example_02](result_images/result_02.png?raw=true "Example_02")  
-![Example_03](result_images/result_03.png?raw=true "Example_03")
-
-
+  
 Many ideas used here were came from [this](https://github.com/MathiasGruber/PConv-Keras) & [this](https://github.com/ezavarygin/PConv2D_Keras) brilliant repositories.  
 Differences between theirs and mine:  
   - **Support for Tensorflow 2.2.0.**  
