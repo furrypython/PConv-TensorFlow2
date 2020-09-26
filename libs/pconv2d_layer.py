@@ -40,8 +40,8 @@ class PConv2D(Conv2D):
         self.pconv_padding = (
             (int((self.kernel_size[0] - 1) / 2),
              int((self.kernel_size[0] - 1) / 2)),
-            (int((self.kernel_size[0] - 1) / 2),
-             int((self.kernel_size[0] - 1) / 2)),
+            (int((self.kernel_size[1] - 1) / 2),
+             int((self.kernel_size[1] - 1) / 2)),
         )
 
         # Window size - used for normalization
